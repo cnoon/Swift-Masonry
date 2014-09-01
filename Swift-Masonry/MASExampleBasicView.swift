@@ -8,25 +8,11 @@
 
 import UIKit
 
-class MASExampleBasicView: UIView {
+class MASExampleBasicView: MASExampleView {
     
     // MARK: - Initialization Method(s)
-    
-    required override init() {
-        super.init()
-    }
 
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        commonInit()
-    }
-    
-    required override init(frame: CGRect) {
-        super.init(frame: frame)
-        commonInit()
-    }
-    
-    func commonInit() {
+    override func commonInit() {
         let view1 = UIView()
         view1.backgroundColor = UIColor.greenColor()
         view1.layer.borderColor = UIColor.blackColor().CGColor

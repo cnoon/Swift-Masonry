@@ -34,7 +34,8 @@ class MASExampleListViewController: UITableViewController {
         examples = [
             Example(name: "Basic", viewType: MASExampleBasicView.self),
             Example(name: "Update Constraints", viewType: MASExampleUpdateConstraintsView.self),
-            Example(name: "Remake Constraints", viewType: MASExampleRemakeConstraintsView.self)
+            Example(name: "Remake Constraints", viewType: MASExampleRemakeConstraintsView.self),
+            Example(name: "Using Constants", viewType: MASExampleUsingConstantsView.self)
         ]
     }
     

@@ -26,7 +26,8 @@ class MASExampleListViewController: UITableViewController {
     func setUpInstanceVariables() {
         title = "Examples"
         exampleViewControllers = [
-            MASExampleViewController(exampleTitle: "Basic", exampleViewType: MASExampleBasicView.self)
+            MASExampleViewController(exampleTitle: "Basic", exampleViewType: MASExampleBasicView.self),
+            MASExampleViewController(exampleTitle: "Update Constraints", exampleViewType: MASExampleUpdateView.self),
         ]
     }
     

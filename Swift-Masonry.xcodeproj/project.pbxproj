@@ -10,6 +10,7 @@
 		4C416B5719B41E2A00D39DB8 /* MASExampleBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C416B5619B41E2A00D39DB8 /* MASExampleBasicView.swift */; };
 		4C416B5A19B4236000D39DB8 /* MASExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C416B5919B4236000D39DB8 /* MASExampleViewController.swift */; };
 		4C416B6219B44D7800D39DB8 /* MASExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C416B6119B44D7800D39DB8 /* MASExampleView.swift */; };
+		4C416B6419B44E8E00D39DB8 /* MASExampleUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C416B6319B44E8E00D39DB8 /* MASExampleUpdateView.swift */; };
 		4CF1498A19B417130075A181 /* MASAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1498919B417130075A181 /* MASAppDelegate.swift */; };
 		4CF1498C19B417130075A181 /* MASExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1498B19B417130075A181 /* MASExampleListViewController.swift */; };
 		4CF1499119B417130075A181 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF1499019B417130075A181 /* Images.xcassets */; };
@@ -21,6 +22,7 @@
 		4C416B5819B41F3700D39DB8 /* Swift-Masonry-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Masonry-Bridging-Header.h"; sourceTree = "<group>"; };
 		4C416B5919B4236000D39DB8 /* MASExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleViewController.swift; sourceTree = "<group>"; };
 		4C416B6119B44D7800D39DB8 /* MASExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleView.swift; sourceTree = "<group>"; };
+		4C416B6319B44E8E00D39DB8 /* MASExampleUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleUpdateView.swift; sourceTree = "<group>"; };
 		4CF1498419B417130075A181 /* Swift-Masonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Masonry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF1498819B417130075A181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CF1498919B417130075A181 /* MASAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASAppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				4C416B6119B44D7800D39DB8 /* MASExampleView.swift */,
 				4C416B5619B41E2A00D39DB8 /* MASExampleBasicView.swift */,
+				4C416B6319B44E8E00D39DB8 /* MASExampleUpdateView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C416B6419B44E8E00D39DB8 /* MASExampleUpdateView.swift in Sources */,
 				4C416B5719B41E2A00D39DB8 /* MASExampleBasicView.swift in Sources */,
 				4C416B5A19B4236000D39DB8 /* MASExampleViewController.swift in Sources */,
 				4CF1498C19B417130075A181 /* MASExampleListViewController.swift in Sources */,

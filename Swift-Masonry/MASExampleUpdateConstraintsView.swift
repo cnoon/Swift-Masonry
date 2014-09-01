@@ -1,5 +1,5 @@
 //
-//  MASExampleUpdateView.swift
+//  MASExampleUpdateConstraintsView.swift
 //  Swift-Masonry
 //
 //  Created by Christian Noon on 8/31/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MASExampleUpdateView: MASExampleView {
+class MASExampleUpdateConstraintsView: MASExampleView {
     var growingButton: UIButton!
     var buttonSize: CGSize!
     

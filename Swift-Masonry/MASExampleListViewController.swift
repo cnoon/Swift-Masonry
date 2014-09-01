@@ -33,7 +33,7 @@ class MASExampleListViewController: UITableViewController {
         title = "Examples"
         examples = [
             Example(name: "Basic", viewType: MASExampleBasicView.self),
-            Example(name: "Update Constraints", viewType: MASExampleUpdateView.self)
+            Example(name: "Update Constraints", viewType: MASExampleUpdateConstraintsView.self)
         ]
     }
     

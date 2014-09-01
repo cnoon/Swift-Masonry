@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  MASAppDelegate.swift
 //  Swift-Masonry
 //
 //  Created by Christian Noon on 8/31/14.
@@ -9,11 +9,11 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class MASAppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow!
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        let navController = UINavigationController(rootViewController: ExampleListViewController())
+        let navController = UINavigationController(rootViewController: MASExampleListViewController())
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         

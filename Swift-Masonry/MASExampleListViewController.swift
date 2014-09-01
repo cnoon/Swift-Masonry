@@ -36,7 +36,8 @@ class MASExampleListViewController: UITableViewController {
             Example(name: "Update Constraints", viewType: MASExampleUpdateConstraintsView.self),
             Example(name: "Remake Constraints", viewType: MASExampleRemakeConstraintsView.self),
             Example(name: "Using Constants", viewType: MASExampleUsingConstantsView.self),
-            Example(name: "Composite Edges", viewType: MASExampleCompositeEdgesView.self)
+            Example(name: "Composite Edges", viewType: MASExampleCompositeEdgesView.self),
+            Example(name: "Basic Animation", viewType: MASExampleBasicAnimationView.self)
         ]
     }
     

@@ -13,6 +13,7 @@
 		4C416B6419B44E8E00D39DB8 /* MASExampleUpdateConstraintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C416B6319B44E8E00D39DB8 /* MASExampleUpdateConstraintsView.swift */; };
 		4C416B6619B4569500D39DB8 /* MASExampleRemakeConstraintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C416B6519B4569500D39DB8 /* MASExampleRemakeConstraintsView.swift */; };
 		4CAA781619B46BD200B9FF61 /* MASExampleCompositeEdgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA781519B46BD200B9FF61 /* MASExampleCompositeEdgesView.swift */; };
+		4CAA781819B46F2B00B9FF61 /* MASExampleBasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA781719B46F2B00B9FF61 /* MASExampleBasicAnimationView.swift */; };
 		4CB8ACC919B45A81002367B3 /* MASExampleUsingConstantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8ACC819B45A81002367B3 /* MASExampleUsingConstantsView.swift */; };
 		4CF1498A19B417130075A181 /* MASAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1498919B417130075A181 /* MASAppDelegate.swift */; };
 		4CF1498C19B417130075A181 /* MASExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1498B19B417130075A181 /* MASExampleListViewController.swift */; };
@@ -28,6 +29,7 @@
 		4C416B6319B44E8E00D39DB8 /* MASExampleUpdateConstraintsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleUpdateConstraintsView.swift; sourceTree = "<group>"; };
 		4C416B6519B4569500D39DB8 /* MASExampleRemakeConstraintsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleRemakeConstraintsView.swift; sourceTree = "<group>"; };
 		4CAA781519B46BD200B9FF61 /* MASExampleCompositeEdgesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleCompositeEdgesView.swift; sourceTree = "<group>"; };
+		4CAA781719B46F2B00B9FF61 /* MASExampleBasicAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleBasicAnimationView.swift; sourceTree = "<group>"; };
 		4CB8ACC819B45A81002367B3 /* MASExampleUsingConstantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleUsingConstantsView.swift; sourceTree = "<group>"; };
 		4CF1498419B417130075A181 /* Swift-Masonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Masonry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF1498819B417130075A181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4C416B6519B4569500D39DB8 /* MASExampleRemakeConstraintsView.swift */,
 				4CB8ACC819B45A81002367B3 /* MASExampleUsingConstantsView.swift */,
 				4CAA781519B46BD200B9FF61 /* MASExampleCompositeEdgesView.swift */,
+				4CAA781719B46F2B00B9FF61 /* MASExampleBasicAnimationView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				4C416B6619B4569500D39DB8 /* MASExampleRemakeConstraintsView.swift in Sources */,
 				4CF1498A19B417130075A181 /* MASAppDelegate.swift in Sources */,
 				4C416B6219B44D7800D39DB8 /* MASExampleView.swift in Sources */,
+				4CAA781819B46F2B00B9FF61 /* MASExampleBasicAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

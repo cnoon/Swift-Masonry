@@ -58,7 +58,6 @@
 			children = (
 				4CF149A719B417890075A181 /* App Delegate */,
 				4CF149A619B417830075A181 /* View Controllers */,
-				4CF1499019B417130075A181 /* Images.xcassets */,
 				4CF1498719B417130075A181 /* Supporting Files */,
 			);
 			path = "Swift-Masonry";
@@ -67,6 +66,7 @@
 		4CF1498719B417130075A181 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CF1499019B417130075A181 /* Images.xcassets */,
 				4CF1498819B417130075A181 /* Info.plist */,
 			);
 			name = "Supporting Files";

@@ -9,8 +9,14 @@
 import UIKit
 
 class MASExampleListViewController: UITableViewController {
+
+    struct Example {
+        var name: String
+        var viewType: NSObject.Type
+    }
+
     let kMASCellReuseIdentifier = "kMASCellReuseIdentifier"
-    var exampleViewControllers: [MASExampleViewController]!
+    var examples: [Example]!
 
     // MARK: - View Lifecycle Method(s)
     
@@ -25,9 +31,9 @@ class MASExampleListViewController: UITableViewController {
 
     func setUpInstanceVariables() {
         title = "Examples"
-        exampleViewControllers = [
-            MASExampleViewController(exampleTitle: "Basic", exampleViewType: MASExampleBasicView.self),
-            MASExampleViewController(exampleTitle: "Update Constraints", exampleViewType: MASExampleUpdateView.self),
+        examples = [
+            Example(name: "Basic", viewType: MASExampleBasicView.self),
+            Example(name: "Update Constraints", viewType: MASExampleUpdateView.self)
         ]
     }
     
@@ -38,12 +44,12 @@ class MASExampleListViewController: UITableViewController {
     // MARK: - UITableViewDataSource Method(s)
     
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
-        return exampleViewControllers.count
+        return examples.count
     }
     
     override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         var cell = tableView.dequeueReusableCellWithIdentifier(kMASCellReuseIdentifier, forIndexPath: indexPath) as UITableViewCell
-        cell.textLabel.text = exampleViewControllers[indexPath.row].exampleTitle
+        cell.textLabel.text = examples[indexPath.row].name
         cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         
         return cell
@@ -53,6 +59,9 @@ class MASExampleListViewController: UITableViewController {
     
     override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        navigationController.pushViewController(exampleViewControllers[indexPath.row], animated: true)
+        
+        let example = examples[indexPath.row]
+        let viewController = MASExampleViewController(exampleTitle: example.name, exampleViewType: example.viewType)
+        navigationController.pushViewController(viewController, animated: true)
     }
 }

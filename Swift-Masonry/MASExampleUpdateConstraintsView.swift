@@ -28,6 +28,8 @@ class MASExampleUpdateConstraintsView: MASExampleView {
         setNeedsUpdateConstraints()
     }
 
+    // MARK: - Constraint Method(s)
+    
     override func updateConstraints() {
         growingButton.mas_updateConstraints { make in
             make.center.equalTo()(self)
@@ -39,6 +41,8 @@ class MASExampleUpdateConstraintsView: MASExampleView {
         
         super.updateConstraints()
     }
+    
+    // MARK: - UIControl Callback Method(s)
     
     func didTapGrowButton(sender: UIButton) {
         var multiplier: CGFloat = 1.3
